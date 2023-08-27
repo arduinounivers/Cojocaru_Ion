@@ -1,5 +1,4 @@
 void traker(){
-    Serial.println("Sistem in comanda");
     digitalWrite(4,0); //pin led rosu
     digitalWrite(3,0); //pin led galben
     analogWrite(6,5);  //pin led alb     
@@ -16,7 +15,6 @@ void traker(){
       if (i<255){
         i++;
       }
-    Serial.println(i);
     analogWrite(5,i);   
    }
 
