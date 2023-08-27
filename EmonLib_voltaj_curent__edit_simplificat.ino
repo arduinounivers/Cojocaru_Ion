@@ -21,7 +21,6 @@ void setup(){
   pinMode(pin2, OUTPUT);
   pinMode(pin3, OUTPUT);
   pinMode(pin6, OUTPUT);
-  Serial.begin(9600);
   eprom = 2;
   EEPROM.write(1, 3);  
   cont = EEPROM.read(1);    
